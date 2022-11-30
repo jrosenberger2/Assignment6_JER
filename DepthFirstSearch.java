@@ -27,7 +27,7 @@ public class DepthFirstSearch {
 	 * @param node is the root of a binary tree
 	 */
     public void DFS(Node node) {
-    	System.out.println(node.getData());
+    	System.out.println("Node Traversed:\t" + node.getData());
     	nodesTraversed++;
     	if(node.getlChild() == null && node.getrChild() == null) {
     		return;
