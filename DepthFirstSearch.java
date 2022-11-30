@@ -40,7 +40,7 @@ public class DepthFirstSearch {
      * printVisited prints the number of nodes traversed during DFS
      */
     public void printVisited() {
-    	System.out.println("Nodes Traversed: " + nodesTraversed);
+    	System.out.println("Total Nodes Traversed:\t" + nodesTraversed);
     }//end getVisited
     
     /**
